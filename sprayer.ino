@@ -90,8 +90,8 @@ void selectSensor(int sensor) {
       digitalWrite(a2Pin, HIGH);
       break;
     case 6:
-      digitalWrite(a0Pin, LOW);
-      digitalWrite(a1Pin, HIGH);
+      digitalWrite(a0Pin, HIGH);
+      digitalWrite(a1Pin, LOW);
       digitalWrite(a2Pin, HIGH);
       break;
     default:
